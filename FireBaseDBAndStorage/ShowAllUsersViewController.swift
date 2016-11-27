@@ -9,6 +9,8 @@
 import UIKit
 import Firebase
 import FirebaseDatabase
+import FirebaseStorage
+import CoreGraphics
 
 
 class ShowAllUsersViewController: UIViewController {
@@ -31,6 +33,9 @@ class ShowAllUsersViewController: UIViewController {
         
         var data = "";
         
+        var xVal = 50
+        var yVal = 70
+        
         //data comes into a snapshot object
         self.usersReference.observe(.childAdded, with: { (snapshot) in
             
@@ -43,6 +48,33 @@ class ShowAllUsersViewController: UIViewController {
             //use the keys to get the values
             let userName = snapshotValue["username"]
             let email = snapshotValue["email"]
+            //if there is an imageurl then show the image
+            if let imageurl = snapshotValue["imageurl"] {
+                // Points to the root reference
+                let storageRef = FIRStorage.storage()
+                
+                let imageRef = storageRef.reference(forURL: imageurl)
+                
+                // Download in memory with a maximum allowed size of 1MB (1 * 1024 * 1024 bytes)
+                imageRef.data(withMaxSize: 1 * 1024 * 1024) { (data, error) -> Void in
+                    if (error != nil) {
+                        print("Error downloading images!")
+                    } else {
+                        // Data for "images/island.jpg" is returned
+                        let downloadedImage: UIImage! = UIImage(data: data!)
+                        
+                        //add a image view dynamically into the view
+                        var imageView : UIImageView
+                        imageView  = UIImageView(frame:CGRect(x:xVal, y:yVal, width:100, height:120));
+                        imageView.image = downloadedImage
+                        self.view.addSubview(imageView)
+                        
+                        xVal = xVal + 30
+                        yVal = yVal + 20
+                    }
+                }
+                
+            }
             
             data.append("\n \(userName!) \(email!)")
             self.usersDataLabel.text = data

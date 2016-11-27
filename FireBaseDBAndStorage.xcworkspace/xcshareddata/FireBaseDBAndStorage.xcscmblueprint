@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "12FCE06F410515245EB2C7573A73AE09ADF73FC3",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "B5F47C96A6DA8AFAF1974F2837BF1299D84421F2" : 9223372036854775807,
+    "12FCE06F410515245EB2C7573A73AE09ADF73FC3" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "42E85F50-1135-4D96-8C10-371D600D11EE",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "B5F47C96A6DA8AFAF1974F2837BF1299D84421F2" : "",
+    "12FCE06F410515245EB2C7573A73AE09ADF73FC3" : "FireBaseDBAndStorage\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "FireBaseDBAndStorage",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "FireBaseDBAndStorage.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/tauk\/FireBase-Basic-Demo.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "12FCE06F410515245EB2C7573A73AE09ADF73FC3"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/tauk\/swift3-examples.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "B5F47C96A6DA8AFAF1974F2837BF1299D84421F2"
+    }
+  ]
+}
