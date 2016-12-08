@@ -55,7 +55,7 @@ UINavigationControllerDelegate {
         // Data in memory
         //let data: NSData
         
-        let imageData = UIImageJPEGRepresentation(imageView.image!, 0.5)
+        let imageData = UIImageJPEGRepresentation(imageView.image!, 0.3)
         
         //let compressedJPGImage = UIImage(data: imageData!)
         

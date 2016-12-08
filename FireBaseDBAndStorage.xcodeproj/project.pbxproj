@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4337CB851DF30AB0005F7D49 /* ShowUsersTableController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4337CB841DF30AB0005F7D49 /* ShowUsersTableController.swift */; };
+		4337CB871DF30C72005F7D49 /* AllUsersTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4337CB861DF30C72005F7D49 /* AllUsersTableViewController.swift */; };
+		4337CB891DF30CD2005F7D49 /* AllUsersTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4337CB881DF30CD2005F7D49 /* AllUsersTableViewCell.swift */; };
 		433C5FEC1DDDEC770078EA83 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 433C5FEB1DDDEC770078EA83 /* GoogleService-Info.plist */; };
 		433C5FEE1DE0AF3A0078EA83 /* ShowAllUsersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 433C5FED1DE0AF3A0078EA83 /* ShowAllUsersViewController.swift */; };
 		43C8C9AA1DDDE0D6005C33A2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43C8C9A91DDDE0D6005C33A2 /* AppDelegate.swift */; };
@@ -19,6 +22,9 @@
 
 /* Begin PBXFileReference section */
 		07D3D05203B08730895859E4 /* Pods-FireBaseDBAndStorage.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FireBaseDBAndStorage.release.xcconfig"; path = "Pods/Target Support Files/Pods-FireBaseDBAndStorage/Pods-FireBaseDBAndStorage.release.xcconfig"; sourceTree = "<group>"; };
+		4337CB841DF30AB0005F7D49 /* ShowUsersTableController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShowUsersTableController.swift; sourceTree = "<group>"; };
+		4337CB861DF30C72005F7D49 /* AllUsersTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AllUsersTableViewController.swift; sourceTree = "<group>"; };
+		4337CB881DF30CD2005F7D49 /* AllUsersTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AllUsersTableViewCell.swift; sourceTree = "<group>"; };
 		433C5FEB1DDDEC770078EA83 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		433C5FED1DE0AF3A0078EA83 /* ShowAllUsersViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShowAllUsersViewController.swift; sourceTree = "<group>"; };
 		43C8C9A61DDDE0D6005C33A2 /* FireBaseDBAndStorage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FireBaseDBAndStorage.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -73,6 +79,9 @@
 				43C8C9B21DDDE0D6005C33A2 /* LaunchScreen.storyboard */,
 				43C8C9B51DDDE0D6005C33A2 /* Info.plist */,
 				433C5FED1DE0AF3A0078EA83 /* ShowAllUsersViewController.swift */,
+				4337CB841DF30AB0005F7D49 /* ShowUsersTableController.swift */,
+				4337CB861DF30C72005F7D49 /* AllUsersTableViewController.swift */,
+				4337CB881DF30CD2005F7D49 /* AllUsersTableViewCell.swift */,
 			);
 			path = FireBaseDBAndStorage;
 			sourceTree = "<group>";
@@ -219,8 +228,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4337CB851DF30AB0005F7D49 /* ShowUsersTableController.swift in Sources */,
 				43C8C9AC1DDDE0D6005C33A2 /* ViewController.swift in Sources */,
+				4337CB871DF30C72005F7D49 /* AllUsersTableViewController.swift in Sources */,
 				433C5FEE1DE0AF3A0078EA83 /* ShowAllUsersViewController.swift in Sources */,
+				4337CB891DF30CD2005F7D49 /* AllUsersTableViewCell.swift in Sources */,
 				43C8C9AA1DDDE0D6005C33A2 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
